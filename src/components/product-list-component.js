@@ -1,3 +1,4 @@
+
 const TEMPLATE = `
     <div class="component-list">
         <product-component></product-component>
@@ -9,10 +10,20 @@ const TEMPLATE = `
 
 
 export default class ProductListComponent {
-    constructor(){}
+    constructor(){
+        this.controller = ProductListController;
+    }
 
     template(){
         return TEMPLATE;
+    }
+
+}
+
+class ProductListController {
+
+    constructor(productsService){
+        productsService.fetchProducts()
     }
 
 }

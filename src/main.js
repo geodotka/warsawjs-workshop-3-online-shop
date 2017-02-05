@@ -16,7 +16,7 @@ shop.component('pageFooterComponent', new PageFooterComponent());
 shop.component('cartComponent', new CartComponent());
 shop.component('productList', new ProductListComponent());
 shop.factory('httpService', HTTPService);
-shop.factory('productsService', ProductsService);
+shop.service('productsService', ProductsService);
 
 // uruchamiamy nasz moduł za pomocą funkcji bootstrap
 angular.bootstrap(window.document, ['shop']);
