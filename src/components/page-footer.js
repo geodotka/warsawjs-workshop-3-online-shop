@@ -1,6 +1,6 @@
 const TEMPLATE = `
     <section class="page-footer">
-        Dziś jest 05.02.2017.
+        Made by geodotka (WarsawJS Workshop #3 - 05.02.2017)
     </section>
 `;
 
