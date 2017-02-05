@@ -16,6 +16,36 @@ body {
 	width: 200px;
 	background-color: darkviolet;
 	margin: 20px;
+	padding: 5px;
+}
+
+.product-header {
+	margin-bottom: 5px;
+}
+
+.product-img {
+	display: flex;
+	font-size: 16px;
+}
+.product img {
+	height: 75px;
+	width: 100px;
+}
+
+.product-footer{
+	display: flex;
+	margin-top: 10px;
+}
+
+.product button {
+	width: 80%;
+	margin-right: 5px;
+	border: none;
+	background-color: yellow;
+}
+
+.product input {
+	width: 20%;
 }
 
 .component-list {
