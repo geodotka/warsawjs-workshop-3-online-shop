@@ -1,3 +1,6 @@
-import ProductComponent from './components/product-component.js'
+import loadModule from './modules/shop-module'
+//import {a} from './modules/shop-module'
 
-new ProductComponent();
+
+loadModule();
+//console.log(a);
