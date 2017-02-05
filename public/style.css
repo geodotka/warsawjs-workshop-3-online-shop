@@ -12,11 +12,11 @@ body {
 }
 
 .product {
-	height: 200px;
-	width: 200px;
+	height: 230px;
+	width: 400px;
 	background-color: darkviolet;
 	margin: 20px;
-	padding: 5px;
+	padding: 10px;
 }
 
 .product-header {
@@ -28,8 +28,9 @@ body {
 	font-size: 16px;
 }
 .product img {
-	height: 75px;
-	width: 100px;
+	height: 150px;
+	width: 200px;
+	margin-right: 10px;
 }
 
 .product-footer{
@@ -52,6 +53,7 @@ body {
 	display: flex;
 	max-width: 1000px;
 	margin: 0 auto;
+	flex-wrap: wrap;
 }
 
 .cart {
