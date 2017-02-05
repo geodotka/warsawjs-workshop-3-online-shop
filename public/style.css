@@ -1,4 +1,11 @@
-section {
+.page-header,
+.page-footer {
+	background-color: yellow;
+	width: 100%;
+	text-align: center;
+}
+
+.product {
 	height: 200px;
 	width: 200px;
 	background-color: darkviolet;

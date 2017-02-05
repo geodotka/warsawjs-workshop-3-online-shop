@@ -1,6 +1,6 @@
 // templatestring - dynamiczne stringi, mogą zawierać w sobie jakieś zmienne w formacie: ${name}
 const TEMPLATE = `
-    <section>
+    <section class="product">
         <header>Tytuł</header>
         <div>
             <img>
