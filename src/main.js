@@ -5,6 +5,8 @@ import PageHeaderComponent from './components/page-header.js';
 import PageFooterComponent from './components/page-footer.js';
 import CartComponent from './components/cart-component.js';
 import ProductListComponent from './components/product-list-component.js';
+import HTTPService from './services/http-service.js';
+import ProductsService from './services/products-service.js';
 
 
 let shop = loadModule();
@@ -13,7 +15,8 @@ shop.component('productComponent', new ProductComponent()); // pierwszy parametr
 shop.component('pageFooterComponent', new PageFooterComponent());
 shop.component('cartComponent', new CartComponent());
 shop.component('productList', new ProductListComponent());
-
+shop.factory('httpService', HTTPService);
+shop.factory('productsService', ProductsService);
 
 // uruchamiamy nasz moduł za pomocą funkcji bootstrap
 angular.bootstrap(window.document, ['shop']);

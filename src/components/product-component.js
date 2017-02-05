@@ -15,9 +15,7 @@ const TEMPLATE = `
 
 
 export default class ProductComponent {
-    constructor(){
-        console.log('BBBBB')
-    }
+    constructor(){}
 
     template(){
         return TEMPLATE;
