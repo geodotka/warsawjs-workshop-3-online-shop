@@ -2,13 +2,16 @@
 const TEMPLATE = `
     <div class="cart">
         Koszyk: {{ $ctrl.cart.getCartSize() }}
+        <ul>
+            <li ng-repeat="product in $ctrl.cart.getCart() track by $index">{{ product.title }}</li>
+        </ul>
     </div>
 `;
 
 
 export default class CartComponent {
     constructor(){
-        this.controller = CartController
+        this.controller = CartController;
     }
 
     template(){

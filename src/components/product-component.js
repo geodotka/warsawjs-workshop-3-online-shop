@@ -8,7 +8,7 @@ const TEMPLATE = `
         </div>
         <div class="product-footer">
             <button type="button" ng-click="$ctrl.addProductToCart()">DO KOSZYKA</button>
-            <input type=text>
+            <input type="number" value="1" id="{{ $ctrl.productData.id }}">
         </div>
     </section>
 `;
@@ -24,6 +24,10 @@ export default class ProductComponent {
 
     template(){
         return TEMPLATE;
+    }
+
+    getProductCount(){
+        return document.getElementById(this.productData.id).value
     }
 
 }

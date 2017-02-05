@@ -61,3 +61,13 @@ body {
 	right: 0;
 	top: 0;
 }
+
+.cart ul {
+	background-color: red;
+	padding-right: 10px;
+}
+
+.cart li {
+	list-style: none;
+	text-align: right;
+}
