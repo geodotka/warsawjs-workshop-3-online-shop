@@ -26,10 +26,6 @@ export default class ProductComponent {
         return TEMPLATE;
     }
 
-    getProductCount(){
-        return document.getElementById(this.productData.id).value
-    }
-
 }
 
 

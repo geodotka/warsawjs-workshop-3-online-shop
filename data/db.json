@@ -16,13 +16,13 @@
             "description": "Weekendowa wycieczka do Rzymu"
         },
         {
-            "id": "2",
+            "id": "3",
             "title": "Kreta",
             "image": "../images/kreta.jpg",
             "description": "Tygodniowe wakacje na Krecie"
         },
         {
-            "id": "2",
+            "id": "4",
             "title": "Sztokholm",
             "image": "../images/sztokholm.jpg",
             "description": "Dwa dni w Sztokholmie"

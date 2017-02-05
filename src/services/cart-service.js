@@ -7,7 +7,10 @@ export default class CartService {
     }
 
     addToCart(product){
-        this.cart.push(product);
+        let productsCount = parseInt(document.getElementById(product.id).value);
+        for (let i=0; i < productsCount; i++){
+            this.cart.push(product);
+        }
         this.storageService.save('xxxx', this.cart)
     }
 
