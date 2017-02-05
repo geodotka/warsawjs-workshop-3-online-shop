@@ -1,12 +1,31 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+}
+
 .page-header,
 .page-footer {
 	background-color: yellow;
 	width: 100%;
 	text-align: center;
+	position: relative;
 }
 
 .product {
 	height: 200px;
 	width: 200px;
 	background-color: darkviolet;
+	margin: 20px;
+}
+
+.component-list {
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.cart {
+	position: absolute;
+	right: 0;
+	top: 0;
 }

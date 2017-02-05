@@ -3,7 +3,7 @@ const TEMPLATE = `
     <section class="product">
         <header>Tytuł</header>
         <div>
-            <img>
+            <img src="../images/madryt.html">
             <span></span>
         </div>
         <div>

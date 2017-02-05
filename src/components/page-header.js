@@ -1,6 +1,7 @@
 const TEMPLATE = `
     <section class="page-header">
         Sklep internetowy
+        <cart-component></cart-component>
     </section>
 `;
 
