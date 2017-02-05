@@ -1,7 +1,10 @@
 // templatestring - dynamiczne stringi, mogą zawierać w sobie jakieś zmienne w formacie: ${name}
 const TEMPLATE = `
     <section class="product">
-        <header class="product-header">{{ $ctrl.productData.title }}</header>
+        <header class="product-header">
+            {{ $ctrl.productData.title }}
+            <span class="product-price">{{ $ctrl.productData.price }} zł</span>
+        </header>
         <div class="product-img">
             <img ng-src="{{ $ctrl.productData.image }}">
             <span>{{ $ctrl.productData.description }}</span>

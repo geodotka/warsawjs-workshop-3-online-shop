@@ -7,25 +7,29 @@
             "id": "1",
             "title": "Madryt",
             "image": "../images/madryt.jpg",
-            "description": "Weekendowa wycieczka do Madrytu"
+            "description": "Weekendowa wycieczka do Madrytu. 3 noclegi z przelotem.",
+            "price": "750,00"
         },
         {
             "id": "2",
             "title": "Kolonia",
             "image": "../images/kolonia.jpg",
-            "description": "Weekendowa wycieczka do Rzymu"
+            "description": "Weekendowa wycieczka do Kolonii. 2 noclegi z przelotem.",
+            "price": "300,00"
         },
         {
             "id": "3",
             "title": "Kreta",
             "image": "../images/kreta.jpg",
-            "description": "Tygodniowe wakacje na Krecie"
+            "description": "Tygodniowe wakacje na Krecie 7 noclegów z przelotem do Chani.",
+            "price": "2300,00"
         },
         {
             "id": "4",
             "title": "Sztokholm",
             "image": "../images/sztokholm.jpg",
-            "description": "Dwa dni w Sztokholmie"
+            "description": "Weekend w Sztokholmie. 2 noclegi z przelotem.",
+            "price": "600,00"
         }
     ]
 }
