@@ -1,0 +1,31 @@
+{
+    "users": [
+        "Ala", "Ula"
+    ],
+    "products": [
+        {
+            "id": "1",
+            "title": "Madryt",
+            "image": "../images/madryt.jpg",
+            "description": "Weekendowa wycieczka do Madrytu"
+        },
+        {
+            "id": "2",
+            "title": "Kolonia",
+            "image": "../images/kolonia.jpg",
+            "description": "Weekendowa wycieczka do Rzymu"
+        },
+        {
+            "id": "2",
+            "title": "Kreta",
+            "image": "../images/kreta.jpg",
+            "description": "Tygodniowe wakacje na Krecie"
+        },
+        {
+            "id": "2",
+            "title": "Sztokholm",
+            "image": "../images/sztokholm.jpg",
+            "description": "Dwa dni w Sztokholmie"
+        }
+    ]
+}

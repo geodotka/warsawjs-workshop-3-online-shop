@@ -1,6 +1,6 @@
 const TEMPLATE = `
     <section class="page-header">
-        Sklep internetowy
+        Sklep internetowy - wycieczki zagramaniczne.
         <cart-component></cart-component>
     </section>
 `;
