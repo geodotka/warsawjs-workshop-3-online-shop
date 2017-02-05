@@ -3,11 +3,11 @@ const TEMPLATE = `
     <section class="product">
         <header class="product-header">{{ $ctrl.productData.title }}</header>
         <div class="product-img">
-            <img src="{{ $ctrl.productData.image }}">
+            <img ng-src="{{ $ctrl.productData.image }}">
             <span>{{ $ctrl.productData.description }}</span>
         </div>
         <div class="product-footer">
-            <button type="button">DO KOSZYKA</button>
+            <button type="button" ng-click="$ctrl.addProductToCart()">DO KOSZYKA</button>
             <input type=text>
         </div>
     </section>
@@ -31,12 +31,15 @@ export default class ProductComponent {
 
 class ProductController {
 
-    constructor(){
-        console.log(this.productData)
+    constructor(cartService){
+        this.cartService = cartService
     }
 
     $onInit(){
         // tu już jest this.productData i dopiero tu, bo w constructorze jeszcze nie ma
     }
 
+    addProductToCart(){
+        this.cartService.addToCart(this.productData)
+    }
 }

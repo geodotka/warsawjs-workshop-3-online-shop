@@ -7,6 +7,8 @@ import CartComponent from './components/cart-component.js';
 import ProductListComponent from './components/product-list-component.js';
 import HTTPService from './services/http-service.js';
 import ProductsService from './services/products-service.js';
+import storageService from './services/storage-service.js';
+import CartService from './services/cart-service.js';
 
 
 let shop = loadModule();
@@ -17,6 +19,8 @@ shop.component('cartComponent', new CartComponent());
 shop.component('productList', new ProductListComponent());
 shop.factory('httpService', HTTPService);
 shop.service('productsService', ProductsService);
+shop.factory('storageService', storageService);
+shop.service('cartService', CartService);
 
 // uruchamiamy nasz moduł za pomocą funkcji bootstrap
 angular.bootstrap(window.document, ['shop']);
