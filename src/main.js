@@ -1,3 +1,3 @@
-import file from './file'
+import ProductComponent from './components/product-component.js'
 
-file.test();
+new ProductComponent();
